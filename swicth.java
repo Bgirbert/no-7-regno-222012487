@@ -4,16 +4,16 @@ public class swicth{  // this program is to display according to the condition
         int numberworkers = 4;
     switch(numberworkers){
         case 1:
-          System.out.println("Serve 10 clients");
+          System.out.println("fail"); // output
           break;
         case 2:
-          System.out.println("Serve 20 clients");
+          System.out.println("pass"); //output
           break;
         case 3:
-          System.out.println("Serve 30 clients");
+          System.out.println("success");  //output
           break;
         case 4:
-          System.out.println("Serve 40 clients");
+          System.out.println("exclence");   //output
           break;
         default:
           System.out.println("No client to serve");
